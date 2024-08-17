@@ -10,14 +10,17 @@ Prisma as the ORM to interact with the MongoDB database.<br />
 ## Available Scripts
 > [!NOTE]
 >In the project **api, client & socket** directorys, you can run:<br />
-> npm i<br />
-> [!NOTE]
+> npm i
+>
+
 >In **api and socket** directory:<br />
-> Config the .env file<br />
-> [!NOTE]
+> Config the .env file
+>
+
 >In **api and socket** directory:<br />
-> run npm start<br />
-> [!NOTE]
+> run npm start
+>
+
 >In **client** directory:<br />
 > run npm run dev<br />
 > you app is now running on http://localhost:5173<br />
