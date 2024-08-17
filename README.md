@@ -7,7 +7,7 @@ SCSS for managing and styling components.
 Node.js with Express to handle the server-side logic.
 Prisma as the ORM to interact with the MongoDB database.
 
-##Available Scripts
+## Available Scripts
 
 In the project **api, client & socket** directorys, you can run:
 >npm i
