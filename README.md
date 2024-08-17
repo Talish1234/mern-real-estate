@@ -2,10 +2,11 @@
 
 This project is a full-stack real estate platform built using the MERN stack with additional tools for enhanced development. <br/>
 The stack includes:
--React for building a dynamic and responsive user interface.
--SCSS for managing and styling components.
--Node.js with Express to handle the server-side logic.
--Prisma as the ORM to interact with the MongoDB database.
+
+- React for building a dynamic and responsive user interface.
+- SCSS for managing and styling components.
+- Node.js with Express to handle the server-side logic.
+- Prisma as the ORM to interact with the MongoDB database.
 
 ## Available Scripts
 > [!NOTE]
