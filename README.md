@@ -1,30 +1,84 @@
-# MERN-based real estate project
+# 🏡 MERN-based Real Estate Platform
 
-This project is a full-stack real estate platform built using the MERN stack with additional tools for enhanced development. <br/>
-The stack includes:
+A modern, full-stack **Real Estate Web Application** built using the **MERN stack**, offering a responsive UI, real-time features, and a secure backend. This platform enables property listings, live updates, user authentication, and more — ideal for showcasing or searching properties.
 
-- React for building a dynamic and responsive user interface.
-- SCSS for managing and styling components.
-- Node.js with Express to handle the server-side logic.
-- Prisma as the ORM to interact with the MongoDB database.
+---
 
-## Available Scripts
-> [!NOTE]
->In the project **api, client & socket** directorys, you can run:<br />
-> npm i
->
+## 🔧 Tech Stack
 
-> [!NOTE]
->In **api and socket** directory:<br />
-> Config the .env file
->
+* **Frontend**: React + Vite + SCSS
+* **Backend**: Node.js + Express.js
+* **Database**: MongoDB with Prisma (as ORM)
+* **Real-time Communication**: Socket.IO
+* **Other Tools**: JWT for authentication, Cloudinary for image uploads
 
-> [!NOTE]
->In **api and socket** directory:<br />
-> run npm start
->
+---
 
-> [!NOTE]
->In **client** directory:<br />
-> run npm run dev<br />
-> you app is now running on http://localhost:5173<br />
+## 📁 Project Structure
+
+/
+├── client # React frontend using Vite and SCSS
+├── api    # Express backend with Prisma ORM
+└── socket # Socket.IO server for real-time features
+
+
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone [https://github.com/Talish1234/mern-real-estate](https://github.com/Talish1234/mern-real-estate)
+cd real-estate-app 
+```
+### 2.  Install Dependencies
+You'll need to install dependencies in each part of the project. Navigate into each respective directory (client, api, socket) and run npm install:
+# In the client directory
+cd client
+npm install
+
+# Go back to the root and then into the api directory
+cd ../api
+npm install
+
+# Go back to the root and then into the socket directory
+cd ../socket
+npm install
+
+### 3. Setup Environment Variables
+You need to create .env files in both api and socket directories.
+
+# api/.env
+```env
+DATABASE_URL=mongodb+srv://<your-mongo-connection>
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_API_SECRET=your_api_secret
+```
+# socket/.env
+```env
+PORT=6000
+```
+### 4. Start the Project
+Start each part of the application using the commands below.
+
+# Start Backend API (/api)
+```bash
+cd api
+npm start
+```
+# Start Socket Server (/socket)
+```bash
+cd socket
+npm start
+```
+# Start Frontend (/client)
+```bash
+cd client
+npm run dev
+```
+📍 Your app will now be running at: http://localhost:5173
