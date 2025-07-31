@@ -17,9 +17,9 @@ A modern, full-stack **Real Estate Web Application** built using the **MERN stac
 ## Project Structure
 
 /<br>
-├── client ### React frontend using Vite and SCSS<br>
-├── api    ### Express backend with Prisma ORM<br>
-└── socket ### Socket.IO server for real-time features<br>
+├── client  //React frontend using Vite and SCSS<br>
+├── api     //Express backend with Prisma ORM<br>
+└── socket  //Socket.IO server for real-time features<br>
 
 
 ---
